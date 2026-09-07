@@ -1,0 +1,12 @@
+{
+  "_comment": "Register the AETumi MCP server with Claude Code. Add this under your Claude Code MCP settings. Replace AETUMI_TOKEN with the token from your AETumi Full Stack account. This is the integration shape; the server package and exact tool names come from your AETumi account/docs.",
+  "mcpServers": {
+    "aetumi": {
+      "command": "npx",
+      "args": ["-y", "@aetumi/mcp"],
+      "env": {
+        "AETUMI_TOKEN": "<your-full-stack-token>"
+      }
+    }
+  }
+}
