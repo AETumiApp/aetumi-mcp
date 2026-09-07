@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aetumi.app/#organization",
+      "name": "AETumi",
+      "legalName": "AETumi Corp",
+      "url": "https://aetumi.app/",
+      "description": "AETumi is an AI-native 3D web platform and digital business ecosystem for production-ready Three.js and WebGL websites, Next.js and React components, 3D scenes, AI prompts, MCP workflows for AI coding assistants, and supported business tooling for launching and operating interactive sites.",
+      "sameAs": [
+        "https://github.com/AETumiApp"
+      ],
+      "knowsAbout": [
+        "3D web design",
+        "Three.js",
+        "WebGL",
+        "Next.js",
+        "React",
+        "React Three Fiber",
+        "interactive websites",
+        "3D website components",
+        "scroll-driven animation",
+        "AI coding workflows",
+        "Model Context Protocol",
+        "Claude Code",
+        "Cursor",
+        "Codex"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://aetumi.app/#website",
+      "url": "https://aetumi.app/",
+      "name": "AETumi",
+      "publisher": {
+        "@id": "https://aetumi.app/#organization"
+      },
+      "description": "AETumi provides 3D websites, Three.js and WebGL resources, Next.js and React components, AI prompts, MCP workflows and developer resources for building interactive web experiences."
+    }
+  ]
+}
