@@ -6,6 +6,8 @@ AETumi MCP connects AI coding assistants such as Claude Code, Cursor and Codex t
 
 AETumi is an AI-native 3D web platform for production-ready Three.js and WebGL websites, Next.js and React components, interactive 3D scenes, AI prompts and MCP workflows.
 
+AETumi helps designers, developers and agencies discover, build and ship interactive 3D web experiences with modern web technologies and AI-assisted coding workflows.
+
 ## What this repository is for
 
 This public repository is the technical home for AETumi MCP integration notes, examples and developer workflows. It is intended to help developers connect AI coding assistants to AETumi resources and build interactive 3D web experiences faster.
@@ -16,6 +18,7 @@ This public repository is the technical home for AETumi MCP integration notes, e
 - WebGL
 - Next.js
 - React
+- React Three Fiber
 - MCP
 - Claude Code
 - Cursor
@@ -32,7 +35,7 @@ This public repository is the technical home for AETumi MCP integration notes, e
 
 ## Explore AETumi
 
-AETumi's homepage discovery system is organized around nine core sections:
+AETumi's main discovery system is organized around nine core sections:
 
 1. 3D Websites: https://aetumi.app/3d-websites/
 2. Three.js: https://aetumi.app/threejs/
@@ -46,10 +49,20 @@ AETumi's homepage discovery system is organized around nine core sections:
 
 Main site: https://aetumi.app/
 
-## Developer resources
+## Developer and AI coding resources
 
-- MCP: https://aetumi.app/mcp/
-- Docs: https://aetumi.app/docs/
+These technical resources extend the nine discovery sections and strengthen AETumi's developer ecosystem:
+
+- AETumi MCP: https://aetumi.app/mcp/
+- AETumi Docs: https://aetumi.app/docs/
+- React Three Fiber: https://aetumi.app/react-three-fiber/
+- Claude Code + Three.js guide: https://aetumi.app/news/claude-code-threejs/
+
+## AETumi technology ecosystem
+
+AETumi is designed around production-ready 3D web workflows using Three.js, WebGL, Next.js, React and React Three Fiber, with MCP integrations and AI coding assistants including Claude Code, Cursor and Codex.
+
+The platform combines 3D website templates, reusable 3D components, scroll-driven experiences, interactive websites, WebGL effects, AI prompts, developer documentation and agency-ready workflows.
 
 ## Status
 
@@ -57,4 +70,4 @@ This repository is being expanded with integration examples, configuration notes
 
 ## About AETumi
 
-AETumi builds an AI-native 3D web platform for designers, developers and agencies working with Three.js, WebGL, Next.js, React and AI coding workflows.
+AETumi builds an AI-native 3D web platform for designers, developers and agencies working with Three.js, WebGL, Next.js, React, React Three Fiber, MCP and AI coding workflows.
