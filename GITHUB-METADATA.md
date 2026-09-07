@@ -17,117 +17,141 @@ AETumi is an AI-native 3D web platform for Three.js, WebGL, Next.js, React, MCP 
 
 ## 1. aetumi-mcp
 
-**Description:** AETumi MCP connects AI coding assistants to AETumi's Three.js, WebGL, Next.js and React 3D web ecosystem.
+**Description:** AETumi MCP — a Model Context Protocol server for Claude Code, Cursor and other MCP-capable coding assistants to discover and integrate production-ready Three.js and WebGL assets into projects.
 
 **Website:** https://aetumi.app/mcp/
 
-**Topics:** `aetumi` `mcp` `threejs` `webgl` `nextjs` `react` `claude-code` `cursor` `codex` `ai-coding`
+**Topics:** `aetumi` `mcp` `model-context-protocol` `claude-code` `cursor` `threejs` `webgl` `3d-web` `ai-coding` `react-three-fiber` `nextjs`
 
-## 2. claude-code-threejs
+> Note: avoid claiming that every supported coding assistant can “install components directly” unless the client-specific flow is documented. The live MCP page explicitly documents Claude Code install, Cursor/other MCP clients, asset discovery, scene building and project integration.
 
-**Description:** Production workflows for building Three.js and WebGL websites with Claude Code, Next.js, React and AETumi.
+## 2. aetumi-3d-web-examples
 
-**Website:** https://aetumi.app/news/claude-code-threejs/
-
-**Topics:** `aetumi` `claude-code` `threejs` `webgl` `nextjs` `react` `ai-coding` `3d-web`
-
-## 3. threejs-product-viewer
-
-**Description:** Production patterns for Three.js product viewers, configurators, hotspots, variants and interactive ecommerce experiences.
-
-**Website:** https://aetumi.app/threejs/
-
-**Topics:** `aetumi` `threejs` `product-viewer` `ecommerce` `webgl` `react` `nextjs` `3d-web`
-
-## 4. nextjs-threejs-starter
-
-**Description:** Production architecture for integrating Three.js and React Three Fiber into Next.js with semantic HTML, performance and accessibility.
-
-**Website:** https://aetumi.app/docs/
-
-**Topics:** `aetumi` `nextjs` `threejs` `react` `react-three-fiber` `webgl` `3d-web` `starter`
-
-## 5. webgl-react-components
-
-**Description:** Reusable WebGL and shader-driven components for React and Next.js with responsive lifecycle, performance and fallback patterns.
-
-**Website:** https://aetumi.app/webgl/
-
-**Topics:** `aetumi` `webgl` `react` `nextjs` `threejs` `shaders` `3d-components` `interactive-web`
-
-## 6. threejs-scroll-animation
-
-**Description:** Scroll-driven Three.js storytelling, camera choreography, product reveals and production-ready 3D scroll patterns.
-
-**Website:** https://aetumi.app/3d-scroll/
-
-**Topics:** `aetumi` `threejs` `scroll-animation` `scrollytelling` `webgl` `nextjs` `react` `3d-web`
-
-## 7. react-three-fiber-examples
-
-**Description:** React Three Fiber architecture, scene state, model loading and production patterns for React, Next.js and Three.js.
-
-**Website:** https://aetumi.app/react-three-fiber/
-
-**Topics:** `aetumi` `react-three-fiber` `threejs` `react` `nextjs` `webgl` `3d-web` `examples`
-
-## 8. 3d-web-ai-prompts
-
-**Description:** Structured AI prompts for 3D websites, Three.js, WebGL, Next.js, React and AI-assisted development workflows.
-
-**Website:** https://aetumi.app/3d-prompts/
-
-**Topics:** `aetumi` `ai-prompts` `3d-web` `threejs` `webgl` `nextjs` `react` `ai-coding`
-
-## 9. aetumi-3d-web-examples
-
-**Description:** Cross-industry reference patterns for cinematic, interactive and production-ready 3D websites built with modern web technology.
+**Description:** Production-ready 3D website examples built with Three.js, WebGL and Next.js — cinematic, interactive and designed as practical AETumi implementation references.
 
 **Website:** https://aetumi.app/3d-websites/
 
-**Topics:** `aetumi` `3d-web` `threejs` `webgl` `interactive-web` `web-design` `nextjs` `examples`
+**Topics:** `aetumi` `3d-website` `threejs` `webgl` `nextjs` `react` `3d-web` `interactive-web` `web-design`
 
-## 10. aetumi-3d-components
+## 3. aetumi-3d-components
 
-**Description:** Reusable 3D web heroes, product interactions, shaders, particles, viewers and interactive components for modern websites.
+**Description:** Reusable 3D web components — hero sections, product viewers, carousels, shaders and scroll scenes for Three.js, WebGL and React Three Fiber projects.
 
 **Website:** https://aetumi.app/3d-components/
 
-**Topics:** `aetumi` `3d-components` `threejs` `webgl` `react` `nextjs` `product-viewer` `interactive-web`
+**Topics:** `aetumi` `3d-components` `threejs` `react-three-fiber` `webgl` `react` `ui-components` `3d-web`
 
-## 11. interactive-3d-web-examples
+## 4. interactive-3d-web-examples
 
-**Description:** Interaction patterns for immersive websites, product stories, spatial navigation and browser-based 3D experiences.
+**Description:** Interactive 3D web experiences — scroll-driven scenes, WebGL interaction, motion and immersive browser patterns built with Three.js and React.
 
 **Website:** https://aetumi.app/interactive-websites/
 
-**Topics:** `aetumi` `interactive-web` `3d-web` `threejs` `webgl` `immersive-web` `web-design` `examples`
+**Topics:** `aetumi` `interactive-3d` `threejs` `webgl` `scrollytelling` `animation` `3d-web` `react`
 
-## 12. aetumi-agency-starter
+## 5. aetumi-agency-starter
 
-**Description:** Discovery, architecture, QA and handoff workflows for agencies delivering production-ready interactive 3D websites for clients.
+**Description:** Agency-grade 3D website workflow for studios shipping cinematic client sites with Next.js, Three.js, WebGL, production QA and structured handoff.
 
 **Website:** https://aetumi.app/for-agencies/
 
-**Topics:** `aetumi` `agency` `3d-web` `threejs` `webgl` `nextjs` `client-work` `web-development`
+**Topics:** `aetumi` `nextjs` `threejs` `agency` `starter` `3d-web` `webgl` `client-work`
+
+## 6. threejs-product-viewer
+
+**Description:** Three.js product viewer patterns for 3D configurators, hotspots, material variants, exploded views and mobile ecommerce interaction.
+
+**Website:** https://aetumi.app/3d-components/
+
+**Topics:** `aetumi` `threejs` `product-viewer` `3d-configurator` `ecommerce` `webgl` `react-three-fiber` `3d-model`
+
+## 7. threejs-scroll-animation
+
+**Description:** Three.js scroll animation — pin, scrub, camera, reveal and scrollytelling patterns for cinematic production-ready 3D websites.
+
+**Website:** https://aetumi.app/3d-scroll/
+
+**Topics:** `aetumi` `threejs` `scroll-animation` `scrollytelling` `gsap` `webgl` `3d-web` `animation`
+
+> “High-converting” is intentionally not used in the About description because conversion performance is a result claim and should be supported by measured evidence.
+
+## 8. webgl-react-components
+
+**Description:** WebGL React components — GPU-accelerated shader backgrounds, visual effects and interactive canvas patterns for React and Next.js.
+
+**Website:** https://aetumi.app/webgl/
+
+**Topics:** `aetumi` `webgl` `react` `shaders` `glsl` `components` `3d-web` `background`
+
+## 9. webgl-shader-examples
+
+**Description:** WebGL GLSL shader examples — fragment shaders, animated backgrounds, distortion and interactive effects with performance and mobile fallbacks.
+
+**Website:** https://aetumi.app/webgl/
+
+**Topics:** `aetumi` `webgl` `glsl` `shaders` `fragment-shader` `graphics` `3d-web` `performance`
+
+## 10. react-three-fiber-examples
+
+**Description:** React Three Fiber examples — declarative Three.js patterns for React and Next.js with editable implementation examples and production guidance.
+
+**Website:** https://aetumi.app/react-three-fiber/
+
+**Topics:** `aetumi` `react-three-fiber` `threejs` `react` `nextjs` `3d-web` `webgl` `drei`
+
+> “Source you own” is intentionally softened because source access and redistribution rights depend on the applicable AETumi plan and license.
+
+## 11. nextjs-threejs-starter
+
+**Description:** Next.js + Three.js starter architecture — server-rendered semantic HTML with client-side 3D, SEO, accessibility and performance-aware loading.
+
+**Website:** https://aetumi.app/docs/
+
+**Topics:** `aetumi` `nextjs` `threejs` `react-three-fiber` `starter` `ssr` `seo` `3d-web`
+
+## 12. claude-code-threejs
+
+**Description:** Claude Code + Three.js — architecture-first workflows, technical briefs and production checklists for building interactive 3D web experiences with AI.
+
+**Website:** https://aetumi.app/news/claude-code-threejs/
+
+**Topics:** `aetumi` `claude-code` `threejs` `ai-coding` `mcp` `3d-web` `workflow` `react-three-fiber`
 
 ## 13. ai-coding-3d-web
 
-**Description:** AI coding workflows for Three.js and WebGL with Claude Code, Cursor, Codex, Next.js, React and AETumi MCP.
+**Description:** AI coding for the 3D web — shared workflows across Claude Code, Cursor, Codex and MCP for building Three.js, WebGL, Next.js and React sites.
 
 **Website:** https://aetumi.app/mcp/
 
 **Topics:** `aetumi` `ai-coding` `claude-code` `cursor` `codex` `mcp` `threejs` `webgl` `3d-web`
 
-## 14. webgl-shader-examples
+## 14. 3d-web-ai-prompts
 
-**Description:** GLSL and WebGL shader patterns for gradients, noise, distortion, reveals, materials and interactive website backgrounds.
+**Description:** AI prompts for 3D web design — reusable technical briefs for Three.js, WebGL, React Three Fiber components and cinematic interactive websites.
 
-**Website:** https://aetumi.app/webgl/
+**Website:** https://aetumi.app/3d-prompts/
 
-**Topics:** `aetumi` `webgl` `glsl` `shaders` `threejs` `fragment-shader` `3d-web` `interactive-web`
+**Topics:** `aetumi` `ai-prompts` `prompt-engineering` `threejs` `3d-web` `webgl` `web-design` `generative-ai`
 
 ---
+
+# Why this version is stronger
+
+This revision keeps the strongest parts of Claude's draft:
+
+- search intent appears early in every description
+- exact technologies are named naturally
+- topics are more specific to each repository
+- descriptions sound like real developer projects rather than generic brand copy
+
+It also removes or softens claims that could create trust or licensing problems:
+
+- no unsupported “high-converting” claim
+- no blanket “source you own” claim
+- no assumption that every AI client has the same direct-install behavior
+- agency repo points to the dedicated `/for-agencies/` canonical page
+- Next.js starter points to Docs because its main intent is architecture, SEO and implementation
+- Claude Code repo points to the exact Claude Code + Three.js guide rather than the generic MCP page
 
 # Metadata rules
 
@@ -139,3 +163,4 @@ AETumi is an AI-native 3D web platform for Three.js, WebGL, Next.js, React, MCP 
 6. Repository README opening paragraphs should reinforce, but not mechanically repeat, the About description.
 7. Update metadata when a repository's real technical scope changes.
 8. Avoid creating additional thin repositories merely to own more keywords.
+9. Favor factual implementation language over unsupported performance, ownership or compatibility claims.
