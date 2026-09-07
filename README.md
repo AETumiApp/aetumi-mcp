@@ -32,14 +32,17 @@ This public repository is the technical home for AETumi MCP integration notes, e
 
 ## AETumi resources
 
-- AETumi: https://aetumi.app/
 - MCP: https://aetumi.app/mcp/
 - Three.js: https://aetumi.app/threejs/
 - WebGL: https://aetumi.app/webgl/
 - 3D Components: https://aetumi.app/3d-components/
 - 3D Websites: https://aetumi.app/3d-websites/
+- 3D Scroll: https://aetumi.app/3d-scroll/
+- Interactive Websites: https://aetumi.app/interactive-websites/
 - 3D Prompts: https://aetumi.app/3d-prompts/
 - Docs: https://aetumi.app/docs/
+
+Main site: https://aetumi.app/
 
 ## Status
 
