@@ -1,0 +1,15 @@
+{
+  "_comment": "Illustrative shape of an AETumi MCP tool definition (MCP tools/list format). Actual tool names and schemas are served by the live AETumi MCP server; this shows the contract, not the proprietary catalog.",
+  "name": "aetumi_search",
+  "description": "Search the AETumi library for production-ready 3D web and UI assets (templates, components, scenes, prompts) filtered by stack and intent.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "query": { "type": "string", "description": "Natural-language description of the asset you want." },
+      "stack": { "type": "string", "enum": ["nextjs", "react", "threejs", "webgl", "r3f", "vanilla"], "description": "Target stack." },
+      "kind": { "type": "string", "enum": ["template", "component", "scene", "section", "background", "prompt"] },
+      "limit": { "type": "integer", "minimum": 1, "maximum": 25, "default": 8 }
+    },
+    "required": ["query"]
+  }
+}
