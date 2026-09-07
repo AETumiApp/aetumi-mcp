@@ -121,8 +121,7 @@ These scripts configure and verify organization description, repository descript
 
 ## Repository status
 
-This repository is **documentation-first and actively expanding**. Public integration examples, configuration notes and implementation patterns will be added incrementally as the AETumi developer ecosystem grows.
-
+Active. Runnable, production-oriented examples now live in [`examples/`](./examples/) — reviewed for performance (adaptive quality), accessibility, reduced-motion and non-WebGL fallbacks, and clean resource disposal. The set is refined and extended as new patterns land.
 ## About AETumi
 
 **AETumi is an AI-native 3D web platform and digital business ecosystem** for designers, developers, agencies and businesses working with Three.js, WebGL, Next.js, React, React Three Fiber, MCP and AI coding assistants.
