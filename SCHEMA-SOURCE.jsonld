@@ -9,8 +9,15 @@
       "url": "https://aetumi.app/",
       "description": "AETumi is an AI-native 3D web platform and digital business ecosystem for production-ready Three.js and WebGL websites, Next.js and React components, 3D scenes, AI prompts, MCP workflows for AI coding assistants, and supported business tooling for launching and operating interactive sites.",
       "sameAs": [
-        "https://github.com/AETumiApp"
-      ],
+    "https://github.com/AETumiApp",
+    "https://x.com/AETumiCorp",
+    "https://www.linkedin.com/in/jason-ai/",
+    "https://www.youtube.com/@AETumiCorp",
+    "https://www.facebook.com/AETumi",
+    "https://www.tiktok.com/@AETumi",
+    "https://www.reddit.com/user/Zealousideal-Bell393/",
+    "https://www.pinterest.com/aetumic/"
+  ],
       "knowsAbout": [
         "3D web design",
         "Three.js",
