@@ -94,14 +94,30 @@ AETumi's public examples should aim for more than visual novelty. Useful 3D web 
 ## Source-of-truth documents
 
 - [CANONICAL-ENTITY.md](./CANONICAL-ENTITY.md) — canonical definition and entity graph
+- [WHAT-IS-AETUMI.md](./WHAT-IS-AETUMI.md) — long-form canonical entity article
 - [PRICING-FAQ-SOURCE.md](./PRICING-FAQ-SOURCE.md) — plan terminology and canonical FAQ
+- [DEPLOY-PACK.md](./DEPLOY-PACK.md) — copy-ready homepage, FAQ, footer, social and structured-data text
+- [ENTITY-DEPLOYMENT-CHECKLIST.md](./ENTITY-DEPLOYMENT-CHECKLIST.md) — production website deployment QA
 - [llms.txt](./llms.txt) — AI-readable entity and resource map
 - [SCHEMA-SOURCE.jsonld](./SCHEMA-SOURCE.jsonld) — Organization and WebSite structured-data source
 - [GITHUB-METADATA.md](./GITHUB-METADATA.md) — exact About descriptions, websites and topics for all public repositories
+- [DISTRIBUTION-BLITZ.md](./DISTRIBUTION-BLITZ.md) — cross-platform recognition plan
+- [SOCIAL-CONTENT-PACK.md](./SOCIAL-CONTENT-PACK.md) — ready-to-adapt platform copy and video angles
 - [CONTENT-LINKING.md](./CONTENT-LINKING.md) — website ↔ GitHub linking rules
 - [ARTICLE-STRUCTURE.md](./ARTICLE-STRUCTURE.md) — technical content structure
 - [ECOSYSTEM.md](./ECOSYSTEM.md) — AETumi developer ecosystem map
 - [ROADMAP.md](./ROADMAP.md) — public development direction
+
+## Metadata automation
+
+After GitHub CLI is authenticated with permission to edit the organization and repositories:
+
+```bash
+bash scripts/set-repo-metadata.sh
+bash scripts/verify-repo-metadata.sh
+```
+
+These scripts configure and verify organization description, repository descriptions, canonical Website fields and focused GitHub topics for the 14 public AETumi repositories.
 
 ## Repository status
 
