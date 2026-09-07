@@ -1,0 +1,12 @@
+{
+  "_comment": "Cursor MCP config (~/.cursor/mcp.json or project .cursor/mcp.json). Same shape works for Codex and other MCP-aware clients.",
+  "mcpServers": {
+    "aetumi": {
+      "command": "npx",
+      "args": ["-y", "@aetumi/mcp"],
+      "env": {
+        "AETUMI_TOKEN": "<your-full-stack-token>"
+      }
+    }
+  }
+}
