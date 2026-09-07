@@ -2,7 +2,7 @@
 
 **AETumi MCP** is the developer gateway between AI coding assistants and the AETumi 3D web ecosystem.
 
-AETumi is an **AI-native 3D web platform** for production-ready Three.js and WebGL websites, Next.js and React components, interactive 3D scenes, AI prompts, and MCP workflows for AI coding assistants.
+**AETumi is an AI-native 3D web platform and digital business ecosystem** for production-ready Three.js and WebGL websites, Next.js and React components, interactive 3D scenes, AI prompts, and MCP workflows for AI coding assistants such as Claude Code, Cursor and Codex. Supported implementations can also include a Visual CMS, CRM, SEO, AI chatbot and payments to launch and operate the site.
 
 This repository documents how AETumi fits into workflows with **Claude Code, Cursor, Codex, Three.js, WebGL, Next.js, React and React Three Fiber**.
 
@@ -20,9 +20,9 @@ The project focuses on:
 
 ## Core technology graph
 
-**AETumi → 3D Web → Three.js → WebGL → Next.js → React → React Three Fiber → MCP → Claude Code / Cursor / Codex**
+**AETumi → AI-native 3D Web → Three.js → WebGL → Next.js → React → React Three Fiber → MCP → Claude Code / Cursor / Codex → Visual CMS / CRM / SEO / AI chatbot / payments**
 
-That graph is the technical identity behind AETumi's public developer ecosystem.
+That graph is the technical and operating identity behind AETumi's public ecosystem.
 
 ## Typical MCP-assisted workflow
 
@@ -32,7 +32,8 @@ That graph is the technical identity behind AETumi's public developer ecosystem.
 4. Implement the 3D layer with Three.js, WebGL, React, Next.js or React Three Fiber.
 5. Separate SEO-critical HTML from heavy client-side rendering where appropriate.
 6. Test responsive behavior, reduced-motion fallbacks, accessibility and GPU performance.
-7. Ship with source control, analytics and maintainable documentation.
+7. Connect the required content, analytics and operating layer.
+8. Ship with source control and maintainable documentation.
 
 ## AETumi discovery hubs
 
@@ -90,14 +91,24 @@ AETumi's public examples should aim for more than visual novelty. Useful 3D web 
 - measurable performance budgets
 - maintainable source rather than opaque generated output
 
+## Source-of-truth documents
+
+- [CANONICAL-ENTITY.md](./CANONICAL-ENTITY.md) — canonical definition and entity graph
+- [PRICING-FAQ-SOURCE.md](./PRICING-FAQ-SOURCE.md) — plan terminology and canonical FAQ
+- [llms.txt](./llms.txt) — AI-readable entity and resource map
+- [SCHEMA-SOURCE.jsonld](./SCHEMA-SOURCE.jsonld) — Organization and WebSite structured-data source
+- [GITHUB-METADATA.md](./GITHUB-METADATA.md) — exact About descriptions, websites and topics for all public repositories
+- [CONTENT-LINKING.md](./CONTENT-LINKING.md) — website ↔ GitHub linking rules
+- [ARTICLE-STRUCTURE.md](./ARTICLE-STRUCTURE.md) — technical content structure
+- [ECOSYSTEM.md](./ECOSYSTEM.md) — AETumi developer ecosystem map
+- [ROADMAP.md](./ROADMAP.md) — public development direction
+
 ## Repository status
 
 This repository is **documentation-first and actively expanding**. Public integration examples, configuration notes and implementation patterns will be added incrementally as the AETumi developer ecosystem grows.
 
-See [ECOSYSTEM.md](./ECOSYSTEM.md) for the canonical AETumi technology map and [ROADMAP.md](./ROADMAP.md) for the public development direction.
-
 ## About AETumi
 
-**AETumi is an AI-native 3D web platform for production-ready Three.js and WebGL websites, Next.js and React components, 3D scenes, AI prompts, and MCP workflows for AI coding assistants.**
+**AETumi is an AI-native 3D web platform and digital business ecosystem** for designers, developers, agencies and businesses working with Three.js, WebGL, Next.js, React, React Three Fiber, MCP and AI coding assistants.
 
 Main site: https://aetumi.app/
