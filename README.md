@@ -30,19 +30,26 @@ This public repository is the technical home for AETumi MCP integration notes, e
 5. Test performance, accessibility and responsiveness.
 6. Ship.
 
-## AETumi resources
+## Explore AETumi
 
-- MCP: https://aetumi.app/mcp/
-- Three.js: https://aetumi.app/threejs/
-- WebGL: https://aetumi.app/webgl/
-- 3D Components: https://aetumi.app/3d-components/
-- 3D Websites: https://aetumi.app/3d-websites/
-- 3D Scroll: https://aetumi.app/3d-scroll/
-- Interactive Websites: https://aetumi.app/interactive-websites/
-- 3D Prompts: https://aetumi.app/3d-prompts/
-- Docs: https://aetumi.app/docs/
+AETumi's homepage discovery system is organized around nine core sections:
+
+1. 3D Websites: https://aetumi.app/3d-websites/
+2. Three.js: https://aetumi.app/threejs/
+3. WebGL: https://aetumi.app/webgl/
+4. 3D Components: https://aetumi.app/3d-components/
+5. 3D Scroll: https://aetumi.app/3d-scroll/
+6. Interactive Websites: https://aetumi.app/interactive-websites/
+7. 3D Prompts: https://aetumi.app/3d-prompts/
+8. For Agencies: https://aetumi.app/for-agencies/
+9. Trending / New: https://aetumi.app/library/
 
 Main site: https://aetumi.app/
+
+## Developer resources
+
+- MCP: https://aetumi.app/mcp/
+- Docs: https://aetumi.app/docs/
 
 ## Status
 
