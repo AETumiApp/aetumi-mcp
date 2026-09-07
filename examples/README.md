@@ -1,42 +1,53 @@
-# AETumi MCP Example Backlog
+# AETumi MCP — examples
 
-This directory will hold small examples that show how an MCP-aware AI coding workflow can use AETumi context without hiding the underlying implementation decisions.
+Expert, concrete developer material for driving premium 3D web work with the
+**AETumi MCP server** from an AI coding assistant (Claude Code, Cursor, Codex).
 
-## Planned examples
+The rich reference docs live at the **repo root** (owner-maintained) — start
+there for install and the exact tool/resource names. This `examples/` folder is
+the *applied* layer: how the pieces fit and what to actually do with them.
 
-### Resource discovery
+Hub: <https://aetumi.app/aetumi-mcp>
 
-Given a 3D web requirement, identify the most relevant AETumi hub, repository and implementation pattern before generating code.
+## Contents
 
-### Three.js implementation brief
+| File | What it gives you |
+| --- | --- |
+| [`architecture.md`](./architecture.md) | The precise mental model — host, MCP client, the AETumi server, and its tools/resources/prompts — with an ASCII layer diagram and a Mermaid sequence of one real request. Read this first. |
+| [`mcp-workflow-cookbook.md`](./mcp-workflow-cookbook.md) | Eight worked scenarios (cinematic hero, shader background, full landing, product viewer, reuse a scene, ship to a client, perf tuning, debug a black screen) — each with intent, what the agent does via MCP, and acceptance criteria. |
 
-Turn an AETumi reference into a structured task containing scene behavior, client/server boundaries, performance constraints and fallbacks.
+## The shape of every workflow
 
-### Component adaptation
+```
+GROUND (resources) → PLAN (prompt) → GENERATE (tools) → VERIFY (browser tool) → HAND OFF (artifacts)
+```
 
-Take a reusable 3D component concept and adapt it to an existing React or Next.js page while keeping semantic content outside the canvas.
+Ground the work in your *real* project context, plan the scene on paper and
+approve it, generate against the plan, verify in a *running* page, and leave
+durable markdown artifacts so the work travels between assistants.
 
-### Cross-assistant workflow
+## Baseline stack these examples assume
 
-Use the same architecture brief with Claude Code, Cursor and Codex to show which parts of the project context should remain tool-independent.
+- **Next.js 14 (App Router), React 18, TypeScript, `three@0.160.0`.**
+- **Server-rendered HTML + client-only 3D island** (`next/dynamic`,
+  `ssr: false`) — copy and metadata are crawlable; WebGL runs only in the
+  browser.
+- **Accessibility and a performance budget are requirements, not polish** —
+  reduced-motion, poster fallback, capped pixel ratio, full disposal.
 
-### Review workflow
+## A note on accuracy
 
-Ask an AI coding assistant to audit an existing Three.js/WebGL implementation, then verify the findings against runtime behavior.
+These examples name primitive *categories* (tools / resources / prompts), never
+fabricated exact commands or flags. Where a step needs a concrete tool name,
+take it from the server's root README so nothing here goes stale.
 
-## Quality bar
+## Companion repos
 
-Examples should be:
-
-- small enough to inspect
-- explicit about tool inputs and outputs
-- architecture-first
-- production-aware
-- honest about what is documentation versus tested code
-
-## AETumi links
-
-- https://aetumi.app/mcp/
-- https://aetumi.app/docs/
-- https://aetumi.app/threejs/
-- https://aetumi.app/3d-components/
+- The cross-assistant five-phase loop these recipes slot into:
+  <https://aetumi.app/ai-coding-3d-web>
+- Briefs, planning prompts and the production checklist:
+  <https://aetumi.app/claude-code-threejs>
+- Copy-paste build prompts for specific scenes:
+  <https://aetumi.app/3d-web-ai-prompts>
+- Reference implementation of the client-island pattern:
+  <https://aetumi.app/nextjs-threejs-starter>
