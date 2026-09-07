@@ -1,0 +1,7 @@
+{
+  "_comment": "Illustrative shape of an AETumi MCP resource (MCP resources/list format). The live server enumerates real resources scoped to your plan.",
+  "uri": "aetumi://asset/threejs/cinematic-hero",
+  "name": "Cinematic Hero (Three.js)",
+  "mimeType": "application/vnd.aetumi.asset+json",
+  "description": "Metadata + install manifest for a cinematic Three.js hero: files, dependencies, and where they map into a Next.js/React project."
+}
