@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.json",
   "name": "io.github.aetumiapp/aetumi",
-  "description": "AETumi MCP \u2014 AI-native 3D web: search production-ready Three.js/WebGL scenes, components and templates (you own the source), with pricing and library discovery for AI coding assistants.",
+  "description": "AETumi MCP - Three.js/WebGL 3D web scenes, components & templates you own the source of.",
   "repository": {
     "url": "https://github.com/AETumiApp/aetumi-mcp",
     "source": "github"
