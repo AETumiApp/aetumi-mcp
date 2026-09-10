@@ -1,12 +1,9 @@
 {
-  "_comment": "Register the AETumi MCP server with Claude Code. Add this under your Claude Code MCP settings. Replace AETUMI_TOKEN with the token from your AETumi Full Stack account. This is the integration shape; the server package and exact tool names come from your AETumi account/docs.",
+  "_comment": "Register the AETumi MCP server (HTTP transport) with Claude Code. Fastest: run `claude mcp add --transport http aetumi https://mcp.aetumi.app`. The public catalog server needs no token.",
   "mcpServers": {
     "aetumi": {
-      "command": "npx",
-      "args": ["-y", "@aetumi/mcp"],
-      "env": {
-        "AETUMI_TOKEN": "<your-full-stack-token>"
-      }
+      "type": "http",
+      "url": "https://mcp.aetumi.app"
     }
   }
 }
