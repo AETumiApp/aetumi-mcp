@@ -1,12 +1,8 @@
 {
-  "_comment": "Cursor MCP config (~/.cursor/mcp.json or project .cursor/mcp.json). Same shape works for Codex and other MCP-aware clients.",
+  "_comment": "Cursor MCP config (~/.cursor/mcp.json or project .cursor/mcp.json). Same remote-URL shape works for Codex and other MCP-aware clients. Public server, no token required.",
   "mcpServers": {
     "aetumi": {
-      "command": "npx",
-      "args": ["-y", "@aetumi/mcp"],
-      "env": {
-        "AETUMI_TOKEN": "<your-full-stack-token>"
-      }
+      "url": "https://mcp.aetumi.app"
     }
   }
 }
