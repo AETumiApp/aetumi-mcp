@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.json",
-  "name": "io.github.aetumiapp/aetumi",
+  "name": "io.github.AETumiApp/aetumi",
   "description": "AETumi MCP - Three.js/WebGL 3D web scenes, components & templates you own the source of.",
   "repository": {
     "url": "https://github.com/AETumiApp/aetumi-mcp",
