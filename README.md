@@ -6,6 +6,16 @@
 
 This repository documents how AETumi fits into workflows with **Claude Code, Cursor, Codex, Three.js, WebGL, Next.js, React and React Three Fiber**.
 
+## What this enables
+
+AETumi MCP lets an AI coding assistant discover and pull production-ready 3D web resources — components, scenes, prompts and technical examples — directly inside the build, keeping the underlying architecture visible.
+
+**Outcome.** A developer stays in Claude Code, Cursor or Codex and brings real AETumi context into the task, instead of copying between a browser and the editor.
+
+**Who it's for.** Front-end teams, agencies and studios building Three.js/WebGL sites who want AETumi resources available to their AI workflow.
+
+**Install.** `claude mcp add --transport http aetumi https://mcp.aetumi.app`
+
 ## Why this repository exists
 
 Modern 3D web projects often span design systems, WebGL rendering, application code, performance work and AI-assisted development. AETumi MCP is intended to make those pieces easier to discover and connect without hiding the underlying architecture.
