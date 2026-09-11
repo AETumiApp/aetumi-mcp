@@ -6,7 +6,7 @@
     "url": "https://github.com/AETumiApp/aetumi-mcp",
     "source": "github"
   },
-  "version": "2.0.1",
+  "version": "2.1.0",
   "remotes": [
     {
       "type": "streamable-http",
