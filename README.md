@@ -16,6 +16,28 @@ AETumi MCP lets an AI coding assistant discover and pull production-ready 3D web
 
 **Install.** `claude mcp add --transport http aetumi https://mcp.aetumi.app`
 
+## Tools
+
+The server exposes ten read-only tools over Streamable HTTP (JSON-RPC 2.0), plus resources, prompts and completions.
+
+**Catalog tools** — discover AETumi library assets:
+
+- `search_assets` — search the AETumi 3D web catalog (scenes, components, sections, templates)
+- `get_asset` — full public detail of one asset by id
+- `list_categories` — asset categories and industries with counts
+- `recommend_stack` — given a use-case, recommend assets and a production approach
+- `get_pricing` — the four lifetime buy-once plans
+- `about_aetumi` — what AETumi is and canonical links
+
+**Experience-discovery tools (v2.1)** — discover premium industry experiences from the AETumi Labs Evidence Graph:
+
+- `filter_by_industry` — experiences for an industry (Beauty & Cosmetics, Automotive, Fashion, Real Estate, E-commerce, Agency & Portfolio, Food & Beverage, Travel & Hospitality, Finance & Fintech, Industrial, Music, SaaS & Startup)
+- `filter_by_style` — experiences by visual style (Dark Cinematic, Editorial Luxury, Glass Luxury, Bright Architectural, Technical Precision, …)
+- `filter_by_goal` — experiences by customer goal (Product Launch, Collection Launch, Property Presentation, Premium E-commerce, …)
+- `find_experiences` — natural-language match across industry, experience type, style and goal, e.g. `find_experiences("dark cinematic automotive launch")`
+
+The discovery layer resolves **industry → visual style → customer goal → an AETumi evidence experience → its industry hub / Labs artifact**. Each result links a live, interactive reference you own the source of.
+
 ## Why this repository exists
 
 Modern 3D web projects often span design systems, WebGL rendering, application code, performance work and AI-assisted development. AETumi MCP is intended to make those pieces easier to discover and connect without hiding the underlying architecture.
@@ -132,6 +154,19 @@ These scripts configure and verify organization description, repository descript
 ## Repository status
 
 Active. Runnable, production-oriented examples now live in [`examples/`](./examples/) — reviewed for performance (adaptive quality), accessibility, reduced-motion and non-WebGL fallbacks, and clean resource disposal. The set is refined and extended as new patterns land.
+
+## Changelog
+
+### v2.1.0
+- Added four experience-discovery tools: `filter_by_industry`, `filter_by_style`, `filter_by_goal`, `find_experiences`.
+- Integrated the AETumi Labs Evidence Graph (public, first-party interactive reference experiences) as a discovery source, distinct from the commercial catalog.
+- Current coverage is generated from the live Evidence Graph — 22 public evidence artifacts across 12 industry surfaces at time of writing.
+- Fixed a status-normalization issue so every public artifact is discoverable.
+- No change to the original six catalog tools; endpoint unchanged (`https://mcp.aetumi.app`).
+
+### v2.0.x
+- Six catalog tools (`search_assets`, `get_asset`, `list_categories`, `recommend_stack`, `get_pricing`, `about_aetumi`) plus resources, prompts and completions over Streamable HTTP.
+
 ## About AETumi
 
 **AETumi is an AI-native 3D web platform and digital business ecosystem** for designers, developers, agencies and businesses working with Three.js, WebGL, Next.js, React, React Three Fiber, MCP and AI coding assistants.
