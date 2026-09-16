@@ -16,18 +16,29 @@ AETumi MCP lets an AI coding assistant discover and pull production-ready 3D web
 
 **Install.** `claude mcp add --transport http aetumi https://mcp.aetumi.app`
 
+## Where to find AETumi MCP
+
+The same server is published across the open MCP ecosystem, so it is discoverable wherever your AI tools look:
+
+- **Smithery** — try or add it from the registry at [smithery.ai/server/aetumi/aetumi](https://smithery.ai/server/aetumi/aetumi)
+- **Glama** — browse the server profile at [glama.ai/mcp/servers/AETumiApp/aetumi-mcp](https://glama.ai/mcp/servers/AETumiApp/aetumi-mcp)
+- **MCP Official Registry** — published as `io.github.AETumiApp/aetumi`
+- **Home** — overview and docs at [aetumi.app/mcp](https://aetumi.app/mcp/)
+
 ## Tools
 
 The server exposes ten read-only tools over Streamable HTTP (JSON-RPC 2.0), plus resources, prompts and completions.
 
 **Catalog tools** — discover AETumi library assets:
 
-- `search_assets` — search the AETumi 3D web catalog (scenes, components, sections, templates)
-- `get_asset` — full public detail of one asset by id
-- `list_categories` — asset categories and industries with counts
-- `recommend_stack` — given a use-case, recommend assets and a production approach
+- `search_3d_web_assets` — search the AETumi 3D web catalog (Three.js/WebGL heroes, 3D product viewers, shader backgrounds, scroll animations, components, sections, templates)
+- `get_3d_web_asset` — full public detail of one asset by id
+- `list_3d_web_categories` — asset categories and industries with counts
+- `recommend_3d_web_stack` — given a use-case, recommend assets and a production build approach
 - `get_pricing` — the four lifetime buy-once plans
 - `about_aetumi` — what AETumi is and canonical links
+
+> The four discovery tools use intent-based names so an AI assistant can pick the right one from the query. The earlier names (`search_assets`, `get_asset`, `list_categories`, `recommend_stack`) still work as hidden aliases — existing integrations do not break.
 
 **Experience-discovery tools (v2.1)** — discover premium industry experiences from the AETumi Labs Evidence Graph:
 
