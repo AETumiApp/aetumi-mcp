@@ -20,8 +20,8 @@ AETumi MCP lets an AI coding assistant discover and pull production-ready 3D web
 
 The same server is published across the open MCP ecosystem, so it is discoverable wherever your AI tools look:
 
-- **Smithery** — try or add it from the registry at [smithery.ai/server/aetumi/aetumi](https://smithery.ai/server/aetumi/aetumi)
-- **Glama** — browse the server profile at [glama.ai/mcp/servers/AETumiApp/aetumi-mcp](https://glama.ai/mcp/servers/AETumiApp/aetumi-mcp)
+- **Smithery** — try or add it from the registry at [smithery.ai/servers/aetumi/aetumi](https://smithery.ai/servers/aetumi/aetumi)
+- **Glama** — browse the server profile at [glama.ai/mcp/connectors/io.github.AETumiApp/aetumi](https://glama.ai/mcp/connectors/io.github.AETumiApp/aetumi)
 - **MCP Official Registry** — published as `io.github.AETumiApp/aetumi`
 - **Home** — overview and docs at [aetumi.app/mcp](https://aetumi.app/mcp/)
 
