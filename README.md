@@ -38,6 +38,21 @@ The server exposes ten read-only tools over Streamable HTTP (JSON-RPC 2.0), plus
 
 The discovery layer resolves **industry → visual style → customer goal → an AETumi evidence experience → its industry hub / Labs artifact**. Each result links a live, interactive reference you own the source of.
 
+## What can you ask?
+
+AETumi MCP is a **Three.js / WebGL MCP server** — an MCP for 3D websites, for frontend and creative developers using Claude Code, Cursor or Codex. Real prompts it answers:
+
+- *Find me a Three.js hero section for a luxury product website.*
+- *Show me WebGL shader backgrounds for a fashion landing page.*
+- *Find a 3D product viewer built with React Three Fiber.*
+- *Give me a Three.js e-commerce template for sneakers.*
+- *Find an interactive hero for a SaaS landing page.*
+- *Show me cinematic scroll animations for a product launch.*
+- *Find lightweight WebGL effects for mobile.*
+- *Give me a Next.js + Three.js starter for an agency website.*
+- *Find a 3D car configurator example.*
+- *Recommend a build for a 3D headphone website.*
+
 ## Run locally (stdio)
 
 Alongside the hosted Streamable-HTTP server, this repository ships a small, self-contained **stdio MCP server** (`index.mjs`) so any MCP client, registry or CI can start and introspect AETumi without a network round-trip. It carries genuinely useful, production-grade **Three.js / WebGL** knowledge (r160+, ESM):
