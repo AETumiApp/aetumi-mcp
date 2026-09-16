@@ -1,0 +1,19 @@
+{
+  "name": "aetumi-mcp",
+  "version": "2.1.0",
+  "description": "AETumi MCP — expert Three.js / WebGL 3D-web assistant: production-grade recipes (glTF Draco/Meshopt, KTX2, instancing & LOD, scroll-scrub, bloom, raycasting), a 3D-web performance audit, and premium 3D website templates you own the source of. For Claude Code, Cursor & Codex.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": { "aetumi-mcp": "index.mjs" },
+  "files": ["index.mjs"],
+  "scripts": { "start": "node index.mjs" },
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "three.js", "threejs", "webgl", "3d-web", "gltf", "draco", "ktx2", "instancing", "scroll", "react-three-fiber", "aetumi"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "license": "MIT",
+  "homepage": "https://aetumi.app",
+  "repository": { "type": "git", "url": "https://github.com/AETumiApp/aetumi-mcp.git" }
+}

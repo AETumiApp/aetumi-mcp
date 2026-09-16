@@ -38,6 +38,25 @@ The server exposes ten read-only tools over Streamable HTTP (JSON-RPC 2.0), plus
 
 The discovery layer resolves **industry → visual style → customer goal → an AETumi evidence experience → its industry hub / Labs artifact**. Each result links a live, interactive reference you own the source of.
 
+## Run locally (stdio)
+
+Alongside the hosted Streamable-HTTP server, this repository ships a small, self-contained **stdio MCP server** (`index.mjs`) so any MCP client, registry or CI can start and introspect AETumi without a network round-trip. It carries genuinely useful, production-grade **Three.js / WebGL** knowledge (r160+, ESM):
+
+```bash
+node index.mjs
+# or containerised (registries build this):
+docker build -t aetumi-mcp . && docker run -i aetumi-mcp
+```
+
+**Local tools** — offline, real ready-to-paste code and best practices:
+
+- `list_threejs_recipes` / `get_threejs_recipe` — expert recipes by id: `scene-scaffold`, `gltf-draco-meshopt`, `ktx2-textures`, `instancing-lod`, `scroll-scrub`, `postprocessing-bloom`, `raycast-interaction`.
+- `audit_3d_web_performance` — the AETumi 3D-web performance checklist (DPR cap, Draco/Meshopt, KTX2, instancing, lazy-init, disposal, reduced-motion).
+- `list_templates` / `get_template` — AETumi premium 3D website templates you own the source of.
+- `connect_info` — connect the full hosted AETumi MCP.
+
+For the full catalog (asset search, components, scenes, prompts) use the hosted server above.
+
 ## Why this repository exists
 
 Modern 3D web projects often span design systems, WebGL rendering, application code, performance work and AI-assisted development. AETumi MCP is intended to make those pieces easier to discover and connect without hiding the underlying architecture.
